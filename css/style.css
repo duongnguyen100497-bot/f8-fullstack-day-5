@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: rgb(93, 129, 205);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -120,5 +121,73 @@ ul{
     color: black;
 }
 
+/* Form */
+.form{
+    width: 500px;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 50px auto 0;
+    border-radius: 50px;
+    padding: 50px 30px;
+    border: 2px solid black;
+}
+
+.form h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: blue;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.form-avt{
+    display: block;
+    text-align: center;
+}
+
+.form-avt .avt-img{
+        border-radius: 50%;
+        width: 150px;
+}
+
+.form-label{
+    display: block;
+    margin: 25px 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.forminput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.list-gender> label{
+    margin-left: 20px;
+}
+
+.list-vertical label{
+    display: block;
+    margin: 8px 0 8px 20px;
+}
+
+.form-btn{
+    padding: 10px 5px;
+    width: 50%;
+    display: block;
+    margin: 30px auto;
+    background-color: rgb(54, 191, 49);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
 
 
