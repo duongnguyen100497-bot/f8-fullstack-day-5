@@ -18,15 +18,15 @@ body{
     text-align: center;
 }
 
-.main >h1{
+.main h1{
     color: rgb(188, 154, 31);
 }
 
-.main>ul{
+.main ul{
     padding-left: 70px;
 }
 
-.main>ul>li>a{
+.main li a{
     text-decoration: none;
     font-size: 20px ;
     font-weight: bold;
@@ -65,7 +65,6 @@ body{
     text-align: justify;
     font-weight: 700;
     padding-top: 16px;
-    margin-bottom: 12px;
 }
 
 .job-title span {
@@ -83,4 +82,43 @@ ul{
     margin-top: 0;
 }
 /* end css CV */
+
+/* Menu */
+.menu{
+    background-color: rgb(62 92 202);
+    padding: 0 60px;
+    font-size: 0;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 20px 30px;
+} 
+.menu li a, .icon{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.menu .icon{
+    padding-left: 10px;
+}
+
+.menu .active{
+    background-color: white;
+}
+
+.menu .active a{
+    display: inline-block;
+    color: black;
+}
+
+.menu .icon2{
+    color: black;
+}
+
+
 
