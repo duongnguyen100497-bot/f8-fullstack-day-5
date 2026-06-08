@@ -40,7 +40,7 @@ body{
     min-height: 100px;
     background-color: rgb(253, 253, 233);
     margin: 0 auto;
-    padding: 50PX 80PX;
+    padding: 50px 80px;
 }
 
 .cv-header{
@@ -68,7 +68,7 @@ body{
     padding-top: 16px;
 }
 
-.job-title span {
+.job-title h3 {
     display: inline-block;
 }
 .full-width{
@@ -114,10 +114,6 @@ ul{
 
 .menu .active a{
     display: inline-block;
-    color: black;
-}
-
-.menu .icon2{
     color: black;
 }
 
